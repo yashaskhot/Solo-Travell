@@ -17,7 +17,13 @@ const Room= require('./models/rooms');
 // ... rest of your code
 
 
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://deploy-mern-frontend.vercel.app"],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
+));
 app.use(express.json());
 // app.get('/api/room', async (req, res) => {
 //     try { 
