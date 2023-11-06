@@ -1,0 +1,86 @@
+/* App.css */
+
+.background {
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+     background-image: url("img.jpg");
+  }
+
+body{
+  background-image: url("img.jpg");
+}
+  
+  .label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .input-field {
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add a light gray border */
+    border-radius: 10px; /* Add border-radius for round corners */
+    background-color: transparent;
+    color: #000;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add box-shadow for 3D effect */
+  }
+  
+  .select-field {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #000;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .checkbox-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .button-cars {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .checkbox-input {
+    border-radius: 50%;
+    /* Add any other styles you want for the checkbox */
+  }
+  
+  /* Add this CSS to your existing styles */
+  .checkbox-container {
+    display: flex;
+    flex-direction: row; /* Arrange checkboxes horizontally */
+    align-items: center; /* Center align checkboxes vertically */
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center; /* Center align checkbox and label vertically */
+    margin-right: 20px; /* Add some spacing between checkboxes */
+  }
+  
+  .wallpaper {
+    background-image: url("https://www.dvd-ppt-slideshow.com/images/ppt-background/background-5.jpg");
+  }
+  

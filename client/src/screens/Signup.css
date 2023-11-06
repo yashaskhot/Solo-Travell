@@ -1,0 +1,166 @@
+/*css file for login page*/
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  center;
+    height: 100vh;
+  }
+  
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+.ok-field{
+    align-items: center;
+    width:45%;
+    color:azure;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.username {
+    color:rgb(248, 232, 232);
+    font-weight: bold;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  background: transparent; /* Set the background to transparent */
+  color: #000; /* Specify text color */
+}
+
+.password {
+        color:rgb(236, 229, 229);
+        font-weight: bold;
+    
+}
+/* Apply styles to the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('img3.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px; /* Rounded corners for the container */
+    padding: 20px;
+  }
+  
+  /* Apply styles to the inner box (login form) */
+  .ok-field {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the inner box */
+    text-align: center;
+    backdrop-filter: blur(5px); /* Apply the glassmorphism effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Other styles remain the same */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    border: none;
+    font-size: medium;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .response-message {
+    margin-top: 10px;
+    color: red;
+  }
+  
+ /* body{
+    background-color:#f7f7f7 ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+ } */
+ .ok-field{
+    width: 420px;
+    
+    color:#fafcff;
+ }
+
+ .ok-field h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  input[type="password"] {
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    border: none;
+    font-size: medium;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .response-message {
+    margin-top: 10px;
+    color: red;
+  }
+  .signup-container{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('img.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15p
+  }
+  
